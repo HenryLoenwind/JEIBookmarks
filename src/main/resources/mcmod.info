@@ -1,0 +1,16 @@
+[
+{
+  "modid": "jeibookmarks",
+  "name": "JEI Bookmarks",
+  "description": "Provides bookmarks fro JEI",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Henry Loenwind"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
