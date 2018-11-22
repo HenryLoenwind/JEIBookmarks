@@ -23,7 +23,6 @@ import mezz.jei.api.ingredients.IIngredientRenderer;
 import mezz.jei.api.recipe.IFocus;
 import mezz.jei.gui.TooltipRenderer;
 import mezz.jei.gui.overlay.IngredientListOverlay;
-import mezz.jei.gui.recipes.RecipesGui;
 import mezz.jei.input.IClickedIngredient;
 import mezz.jei.input.InputHandler;
 import mezz.jei.runtime.JeiRuntime;
@@ -170,11 +169,6 @@ public class JeiAccessor implements IJeiAccessor {
     GuiUtils.drawGradientRect(0, iconX, iconY, iconX + width, iconY + height, 0x80FFFFFF, 0x80FFFFFF);
     GlStateManager.colorMask(true, true, true, true);
     GlStateManager.enableDepth();
-  }
-
-  @Nonnull
-  public RecipesGui getRecipesGui() {
-    return jeiRuntime.getRecipesGui();
   }
 
   @Override
